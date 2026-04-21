@@ -1,20 +1,16 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Routes from './src/routes'; // Importa o arquivo de rotas que criamos
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <NavigationContainer>
+      {/* A StatusBar pode ficar aqui para ser aplicada em todo o app */}
       <StatusBar style="auto" />
-    </View>
+      
+      {/* O Routes renderiza o Stack.Navigator começando pela tela de Login */}
+      <Routes />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
