@@ -22,7 +22,7 @@ Siga os passos abaixo para executar o app em seu ambiente local
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/ArturIbanez/AtividadeAvaliativaExpo.git](https://github.com/ArturIbanez/AtividadeAvaliativaExpo)
+   git clone https://github.com/ArturIbanez/AtividadeAvaliativaExpo.git (https://github.com/ArturIbanez/AtividadeAvaliativaExpo)
 - Entre na pasta do projeto: cd AtividadeAvaliativaExpo
 - Instale as dependências: npm install
 - Inicie o servidor do Expo: npx expo start ou npm start
